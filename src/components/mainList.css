@@ -1,0 +1,30 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: hotpink; */
+  padding: 0;
+}
+
+.video {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  height: 100px;
+  width: 47.5%;
+  margin: 10px;
+  border: 1px solid gray;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.video:hover {
+  opacity: 0.7;
+}
+
+.thumbnail {
+  display: inline-block;
+  background-color: khaki;
+  width: 40%;
+  height: 100%;
+  margin-right: 30px;
+}
