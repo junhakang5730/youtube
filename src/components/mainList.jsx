@@ -1,6 +1,6 @@
 import React, { memo, useState, useEffect } from "react";
 import "./mainList.css";
-import VideoCard from "./videoCard.jsx";
+import VideoCard from "./videoCard/videoCard.jsx";
 
 const MainList = memo((props) => {
   return (
